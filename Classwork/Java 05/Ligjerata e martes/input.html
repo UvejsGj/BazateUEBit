@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta lang="sq">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs - V2</title>
+</head>
+<body>
+    <!-- <form action="">
+        <p>
+            Departure Date:
+            <input type="date" name="date-of-departure">
+        </p>
+    </form> -->
+<!-- 
+    <form action="">
+        <input type="hidden" name="hidden-input" value="hidden_input">
+    </form> -->
+ <!-- Labels -->
+    <!-- <form action="">
+        <label for="">Age: <input type="text" name="age"></label>
+    </form> -->
+
+    <form action="">
+  <fieldset>
+    <legend>Personal Data</legend>
+
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" required>
+    <br><br>
+
+    <label for="last-name">Last name</label>
+    <input type="text" name="last-name" id="last-name">
+    <br><br>
+    <label for="tel">Numri tel.</label>
+    <input type="tel" name="tel" id="tel" placeholder="04*-111-222" pattern="[0-9]-{3}[0-9]-{3}-[0-9]-{3}" title="a u lodhe">
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Career</legend>
+    <label for="company-1">Company 1</label>
+    <input type="text" name="company-1" id="company-1">
+  </fieldset>
+
+  <button type="submit">Submit</button>
+  
+</form>
+
+
+</body>
+</html>
