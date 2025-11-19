@@ -1,0 +1,22 @@
+/* #titulli {
+    background-color: pink;
+}
+
+.sub-titulli {
+    background-color: rgb(137,9,72, 0.67);
+    color: white;
+}
+
+h2 + p {
+    background-color: #ff3300;
+} */
+
+.box {
+    width: 120px;
+    height: 120px;
+    background-color: crimson;
+}
+
+.box-o3 {
+    opacity: 0.3;
+}
