@@ -1,0 +1,32 @@
+.parent {
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 200vh;
+}
+
+.child {
+    height: 50px;
+    padding: 10px;
+}
+
+.one {
+    background-color: red;
+    position: sticky;
+    top: 20px;
+}
+
+.two {
+    background-color: green;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.three {
+    background-color: yellow;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
